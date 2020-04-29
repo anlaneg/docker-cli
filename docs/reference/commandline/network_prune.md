@@ -27,7 +27,7 @@ by any containers.
 ```bash
 $ docker network prune
 
-WARNING! This will remove all networks not used by at least one container.
+WARNING! This will remove all custom networks not used by at least one container.
 Are you sure you want to continue? [y/N] y
 Deleted Networks:
 n1
@@ -96,7 +96,7 @@ f949d337b1f5        none                null                local
 * [network ls](network_ls.md)
 * [network inspect](network_inspect.md)
 * [network rm](network_rm.md)
-* [Understand Docker container networks](https://docs.docker.com/engine/userguide/networking/)
+* [Understand Docker container networks](https://docs.docker.com/network/)
 * [system df](system_df.md)
 * [container prune](container_prune.md)
 * [image prune](image_prune.md)
